@@ -1,0 +1,80 @@
+.FirstAppImage {
+  height: 3rem;
+  width: 3rem;
+  background-color: aqua;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #181c1f;
+  color: #bdd1d4;
+  margin: 2rem;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+header {
+  margin: 2rem 0;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+header h1,
+p {
+  text-align: center;
+  margin: 0;
+  color: #48d9f3;
+  -webkit-text-stroke: 1px #1095f5;
+  font: "Poppins", sans-serif;
+}
+
+#tabs {
+  max-width: 32rem;
+  overflow: hidden;
+}
+
+#tabs menu {
+  position: relative;
+  width: 92%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.25rem;
+}
+
+#tabs button {
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: #282f33;
+  border: none;
+  border-bottom-color: #48d9f3;
+  color: #e0eff1;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+#tabs button:hover,
+#tabs button.active {
+  background-color: #48d9f3;
+  color: #273133;
+}
+
+#tab-content {
+  overflow: hidden;
+  width: 23.1rem;
+  background-color: #2d3942;
+  color: #fff;
+  padding: 1rem;
+}
+
+#tab-content li {
+  margin: 0.75rem 0;
+}
