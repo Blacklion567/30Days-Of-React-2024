@@ -1,12 +1,12 @@
-# React - The Complete Guide 2023 (incl. React Router & Redux) Course - Content preview
+# React - The Complete Guide 2024 (incl. React Router & Redux) Course - Content preview
 
 ![My Certificate preview for React Course](./Certificate/)
 
 <h1>
-  This is React - The Complete Guide 2023 :heart:
+  This is React - The Complete Guide 2024 :heart:
 </h1>
 
-<p class="para">Hi, My name is Jade IVan and this is my apply what I learned in this course with the instructor</p>
+<p class="para">Hi, My name is Jade Ivan and this is my apply what I learned in this course with the instructor</p>
 
 ## Welcome! 👋
 
